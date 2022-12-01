@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Din';
+    src: url('./fonts/D-DIN.woff2') format('woff2')
+}
+
+@font-face {
+    font-family: 'Din-Bold';
+    src: url('./fonts/D-DIN-Bold.woff2') format('woff2');
+}
+
+img {
+    width: 75%;
+    height: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+
+.color {
+    width: 24.65%;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+
+}
+
+#white {
+    background-color: #fff;
+    color: black;
+}
+
+#grey {
+    background-color: #888;
+}
+
+#lightgrey {
+    background-color: #b8b8b8;
+}
+
+#darkgrey {
+    background-color: #757575;
+}
+
+#colorgradient {
+
+    margin-top: 10px;
+    height: 10px;
+    /* width: 80%; */
+    background-image: linear-gradient(to right, #fff, #757575);
+}
+
+#din {
+    font-family: "Din";
+}
+
+#din-bold {
+    font-family: "Din-Bold";
+}
+
+#roboto {
+    font-family: 'roboto';
+}
+
+.ts {
+    width: 25%;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.fonts {
+    padding-bottom: 20px;
+}
+
+.left {
+    padding-left: 10px;
+    top: 0;
+    height: fit-content;
+    position: sticky;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+table,
+.fonts {
+    padding-left: 20px;
+}
+
+figcaption {
+    width: 75%;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: white;
+}
